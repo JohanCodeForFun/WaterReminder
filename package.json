@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll --verbose",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
-  },
-  "jest": {
-    "preset": "react-native"
   },
   "dependencies": {
     "expo": "~49.0.15",
